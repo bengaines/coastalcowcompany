@@ -1,0 +1,55 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    http://bengaines.github.io/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Ben Gaines
+ Author URI:   http://bengaines.github.io
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-sixteen-child
+*/
+
+body {
+	background-color: #0f7735;
+}
+
+.content-area {
+	width: 100%;
+}
+
+.entry-title {
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-size: 28px;
+	font-size: 1.75rem;
+	font-weight: 700;
+	line-height: 1.25;
+	margin-bottom: 1em;
+	
+	text-align: center;
+	color: green;
+	font-weight: 350;
+}
+
+.entry-content a {
+	color: white;
+	padding: 2%;
+	background-color: #21759b;
+	-moz-border-radius: 2%;
+	-webkit-border-radius: 2%;
+	border-radius: 2%;
+}
+
+@media(min-width:588px) {
+	.entry-content a {
+		padding: 1%;
+	}
+} 
+
+@media(min-width:872px) {
+	.entry-content a {
+		padding: 0.8%;
+	}
+}
