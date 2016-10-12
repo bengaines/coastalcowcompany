@@ -12,10 +12,6 @@
  Text Domain:  twenty-sixteen-child
 */
 
-body {
-	background-color: #0f7735;
-}
-
 .content-area {
 	width: 100%;
 }
@@ -27,13 +23,40 @@ body {
 	font-weight: 700;
 	line-height: 1.25;
 	margin-bottom: 1em;
-	
 	text-align: center;
-	color: green;
 	font-weight: 350;
 }
 
-.entry-content a {
+body.page-template-front-page {
+	background-image: url("IMG_0362.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+
+.page-template-front-page .site-branding .site-title a {
+	color: white;
+}
+
+.page-template-front-page .main-navigation a {
+	color: white;
+}
+
+.page-template-front-page .site-description {
+	color: white;
+}
+
+.page-template-front-page .site-info a {
+	color: white;
+}
+
+.page-id-2 #page.site {
+	background-color: transparent;
+}
+
+/* link button on home page */
+.page-id-2 .entry-content a {
 	color: white;
 	padding: 2%;
 	background-color: #21759b;
@@ -43,13 +66,14 @@ body {
 }
 
 @media(min-width:588px) {
-	.entry-content a {
+	.page-id-2 .entry-content a {
 		padding: 1%;
 	}
 } 
 
 @media(min-width:872px) {
-	.entry-content a {
+	.page-id-2 .entry-content a {
 		padding: 0.8%;
 	}
 }
+
